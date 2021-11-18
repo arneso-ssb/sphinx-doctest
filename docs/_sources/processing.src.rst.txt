@@ -1,0 +1,21 @@
+processing.src package
+======================
+
+Submodules
+----------
+
+processing.src.my\_funcs module
+-------------------------------
+
+.. automodule:: processing.src.my_funcs
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: processing.src
+   :members:
+   :undoc-members:
+   :show-inheritance:

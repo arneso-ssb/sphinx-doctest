@@ -1,0 +1,18 @@
+processing package
+==================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   processing.src
+
+Module contents
+---------------
+
+.. automodule:: processing
+   :members:
+   :undoc-members:
+   :show-inheritance:
