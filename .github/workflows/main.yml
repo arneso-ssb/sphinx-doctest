@@ -44,6 +44,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs/_build/html
           destination_dir: docs
-          commit_message: 'Update docs: '
+          commit_message: 'Update docs: ${{ github.event.head_commit.message }} '
           exclude_assets: .buildinfo
           keep_files: false
