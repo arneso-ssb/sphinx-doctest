@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+wheel = "*"
+
+[dev-packages]
+black = "==21.11b1"  # need to pin the version because of prerelease
+isort = "*"
+pytest = "*"
+sphinx = "*"
+sphinx-autodoc-defaultargs = "*"
+sphinx-autodoc-typehints = "*"
+sphinx-rtd-theme = "*"
+
+[requires]
+python_version = "3.8"
