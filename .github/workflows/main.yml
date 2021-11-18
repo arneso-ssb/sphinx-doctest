@@ -36,6 +36,7 @@ jobs:
           cd docs
           pipenv run sphinx-apidoc -o . ../ ../processing/tests
           pipenv run make html
+          touch _build/html/.nojekyll
 
       - name: Publish documentation
         uses: peaceiris/actions-gh-pages@v3
